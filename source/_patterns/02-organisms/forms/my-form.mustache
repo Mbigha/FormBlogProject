@@ -1,0 +1,14 @@
+<div class="myForm px-3 mt-5">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4">
+            <form>
+                {{# formGroups }}
+                    {{> molecules-form-group }}
+                {{/ formGroups }}
+                {{> atoms-submit-button:mt-5(btnText: "Register Now") }}
+            </form>
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
